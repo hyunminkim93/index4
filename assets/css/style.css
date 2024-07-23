@@ -1,0 +1,483 @@
+#header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    color: #FAEDBF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto Condensed';
+    padding: 1rem;
+    background-color: #00000067;
+    backdrop-filter: blur(10px);
+}
+
+#header h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+#header h1 span {
+    font-weight: 500;
+}
+
+#header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+#header nav li {
+    font-weight: 300;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+/* //header */
+
+#section1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/bg.jpg);
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#section1 .text {
+    position: relative;
+    z-index: 1000;
+    width: 100%;
+}
+
+#section1 .text>div {
+    height: 10vw;
+    font-size: 12vw;
+    line-height: 1;
+    color: #FAEDBF;
+    font-family: "Thunder";
+    text-transform: uppercase;
+}
+
+#section1 .text .t1 {
+    padding-left: 5vw;
+    overflow: hidden;
+}
+
+#section1 .text .t2 {
+    padding-left: 15vw;
+    overflow: hidden;
+}
+
+#section1 .text .t2 span {
+    position: absolute;
+    font-family: 'Dynalight';
+    color: #5F2CC6;
+    text-transform: lowercase;
+    font-size: 9vw;
+}
+
+#section1 .text .t3 img {
+    position: absolute;
+    right: 5vw;
+    bottom: 5vw;
+    width: 20vw;
+    height: 20vw;
+    z-index: 10000;
+}
+
+#section1 .text .t4 {
+    padding-right: 15vw;
+    text-align: right;
+    overflow: hidden;
+}
+
+#section1::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #0000007a;
+    position: absolute;
+    left: 0;
+    top: 0;
+    backdrop-filter: blur(2px);
+}
+
+#section1 .scroll {
+    position: absolute;
+    left: 10vw;
+    bottom: 6vw;
+    z-index: 10000;
+}
+
+#section1 .scroll i {
+    display: block;
+    color: #FAEDBF;
+    width: 350px;
+    font-style: normal;
+    margin-bottom: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1vw;
+}
+
+#section1 .scroll span {
+    display: inline-block;
+    background-color: #5F2CC6;
+    color: #fff;
+    padding: 0.7rem 3.3rem;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed';
+    font-size: 1vw;
+}
+
+#section1 .scroll span em {
+    font-weight: 700;
+    font-size: 1vw;
+}
+
+#section1 canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10000;
+}
+
+/* section1 */
+
+#section2 {
+    width: 100%;
+    min-height: 1000px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding: 10% 3%;
+    text-align: center;
+}
+
+#section2 div .mv {
+    color: #FAEDBF;
+    margin-bottom: 7%;
+    display: inline-block;
+    font-size: 14px;
+}
+
+#section2 div .art {
+    color: #5F2CC6;
+    font-family: "Thunder";
+    font-size: 4vw;
+    text-transform: uppercase;
+    line-height: 0.9;
+    margin-bottom: 10%;
+}
+
+#section2 div .utd .line {
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+#section2 div .itd {
+    color: #FAEDBF;
+    font-family: 'IropkeBatang';
+    font-size: 1vw;
+}
+
+#section2 div .itd p {
+    margin-bottom: 5%;
+}
+
+/* section2 */
+
+#section3 {
+    height: 100vh;
+    background-image: url(../img/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#section3 .skill {
+    position: relative;
+    font-size: 9vw;
+    font-family: "Thunder";
+    color: #FAEDBF;
+    display: flex;
+    text-transform: uppercase;
+    line-height: 0.8;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+#section3 .skill p {
+    font-size: 1vw;
+    font-family: 'IropkeBatang';
+    line-height: 1.4;
+    padding-left: 20px;
+    /* margin-top: 46px; */
+}
+
+/* section3 */
+
+#section4 {
+    width: 100%;
+    height: 7000px;
+    background-color: #000;
+    text-align: center;
+    padding-top: 10%;
+}
+
+#section4 div .mv {
+    color: #faedbf;
+    margin-bottom: 7%;
+    display: inline-block;
+    font-size: 1vw;
+    text-align: center;
+}
+
+#section4 div .art {
+    color: #5f2cc6;
+    font-family: "Thunder";
+    font-size: 3vw;
+    text-transform: uppercase;
+    line-height: 0.9;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.portWrap {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.portWrap .port {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.portWrap .port .left {
+    width: 48vw;
+    height: 40vw;
+    background-color: #751AD4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.portWrap .port .left h4 {
+    font-size: 10vw;
+    font-family: "Thunder";
+    color: #faedbf;
+    padding-top: 50%;
+    text-transform: uppercase;
+    margin-top: -100px;
+}
+
+.portWrap .port .left .pick {
+    margin-top: -8.29vw;
+}
+
+.portWrap .port .left .music {
+    margin-bottom: -3.13vw;
+}
+
+.portWrap .port .left .food {
+    margin-bottom: -5.65vw;
+}
+
+.portWrap .port .left .javascript {
+    margin-bottom: 5.21vw;
+}
+
+.portWrap .port .left .mysql {
+    margin-bottom: -3.08vw;
+}
+
+.portWrap .port .left .quiz {
+    margin-bottom: -6.17vw;
+}
+
+.portWrap .port .left .WebDesign {
+    margin-bottom: 60px;
+}
+
+
+.portWrap .port .left .imgwrap {
+    position: absolute;
+    left: 50%;
+    top: 9vw;
+    width: 13vw;
+    height: 13vw;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    border: 6px solid #fff;
+    background-color: #7f23b8;
+}
+
+.imgwrap .img {
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/chicken.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.imgwrap .img1 {
+    background-image: url(../img/php.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.imgwrap .img2 {
+    background-image: url(../img/movie.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.imgwrap .img3 {
+    background-image: url(../img/music.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.imgwrap .img4 {
+    background-image: url(../img/food.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.imgwrap .img5 {
+    background-image: url(../img/javascript.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.imgwrap .img6 {
+    background-image: url(../img/mysql.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.imgwrap .img7 {
+    background-image: url(../img/quiz.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.imgwrap .img8 {
+    background-image: url(../img/webd.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.portWrap .port .right {
+    width: 48vw;
+    height: 40vw;
+    background-color: #8e5af8;
+    background-image: url(../img/bg3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.portWrap .port .right h4 {
+    font-family: "Thunder";
+    color: #751AD4;
+    font-size: 10vw;
+    text-transform: uppercase;
+}
+
+.portWrap .port .right p {
+    color: #faedbf;
+    font-family: "IropkeBatang";
+    font-size: 1vw;
+}
+
+.portWrap .port .right .site {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    background-color: #8e5af8;
+    padding: 5px 10px;
+    color: #faedbf;
+    font-family: "IropkeBatang";
+}
+
+.portWrap .port .right .code {
+    position: absolute;
+    left: 112px;
+    bottom: 10px;
+    background-color: #8e5af8;
+    padding: 5px 10px;
+    color: #faedbf;
+    font-family: "IropkeBatang";
+}
